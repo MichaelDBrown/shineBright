@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Shine Bright Like a Diamond - MB</title>
   <script src="diamond.js"></script>
+  <link rel="stylesheet" type="text/css" href="diamond.css">
 </head>
 <body>
-  <div class="output" id="out1"></div>
-  <div class="output" id="out2"></div>
-  <div class="output" id="out3"></div>
+  <div class="input_container">
+    Single capital letter (A-Z) for the middle: <input type="text" id="diamondLetter" title="Single letter A to Z" maxlength="1" size="1" autofocus></br>
+    <br/>
+    <button onclick="makeDiamond()">Make a Diamond!</button>
+  </div>
   <hr/>
   <center>
   <div class="output" id="result"/>
